@@ -28,5 +28,9 @@ public class Main {
         // Audit the election
         System.out.println("Audit:");
         system.auditElection();
+
+        // EC
+        System.out.println("\nEC:");
+        system.executeElection();
     }
 }
